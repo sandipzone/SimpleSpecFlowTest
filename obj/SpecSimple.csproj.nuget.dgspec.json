@@ -1,0 +1,125 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\SpecFlowProj\\SpecSimple\\SpecSimple\\SpecSimple\\SpecSimple.csproj": {}
+  },
+  "projects": {
+    "C:\\SpecFlowProj\\SpecSimple\\SpecSimple\\SpecSimple\\SpecSimple.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SpecFlowProj\\SpecSimple\\SpecSimple\\SpecSimple\\SpecSimple.csproj",
+        "projectName": "SpecSimple",
+        "projectPath": "C:\\SpecFlowProj\\SpecSimple\\SpecSimple\\SpecSimple\\SpecSimple.csproj",
+        "packagesPath": "C:\\Users\\sandi\\.nuget\\packages\\",
+        "outputPath": "C:\\SpecFlowProj\\SpecSimple\\SpecSimple\\SpecSimple\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sandi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.24.0, )"
+            },
+            "Selenium.WebDriver.GeckoDriver": {
+              "target": "Package",
+              "version": "[0.35.0, )"
+            },
+            "SpecFlow.Assist.Dynamic": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.40, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.57, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
